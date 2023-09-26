@@ -1,1 +1,40 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<head>
+    <title>Movie Genre Survey</title>
+</head>
+<body>
+    <header>
+        <h1>Favorite Movie Genre Survey</h1>
+    </header>
+    
+    <section>
+        <h2>Survey Questions</h2>
+        <form>
+            <p>
+                <label for="favoriteGenre">Select your favorite movie genre:</label>
+                <select id="favoriteGenre" name="favoriteGenre">
+                    <option value="Action">Action</option>
+                    <option value="Comedy">Comedy</option>
+                    <option value="Drama">Drama</option>
+                    <option value="Science Fiction">Science Fiction</option>
+                    <option value="Horror">Horror</option>
+                    <option value="Adventure">Adventure</option>
+                    <option value="Romance">Romance</option>
+                    <option value="Fantasy">Fantasy</option>
+                    <option value="Mystery">Mystery</option>
+                    <option value="Other">Other</option>
+                </select>
+            </p>
+            <p>
+                <label for="reason">Why is this your favorite genre?</label>
+                <textarea id="reason" name="reason" rows="4" cols="50"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Submit">
+            </p>
+        </form>
+    </section>
+</body>
+</html>
