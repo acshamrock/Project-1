@@ -1,0 +1,43 @@
+body, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+h1 {
+    font-family: 'YourImportedFont', sans-serif;
+    font-weight: bold;
+    color: #0066cc;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
